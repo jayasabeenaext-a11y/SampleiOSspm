@@ -1,0 +1,95 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SampleiOSframework",
+    "printedName": "SampleiOSframework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SampleiOSframework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SampleiOSframeworkManager",
+        "printedName": "SampleiOSframeworkManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SampleiOSframeworkManager",
+                "printedName": "SampleiOSframework.SampleiOSframeworkManager",
+                "usr": "s:18SampleiOSframework0aB7ManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18SampleiOSframework0aB7ManagerCACycfc",
+            "mangledName": "$s18SampleiOSframework0aB7ManagerCACycfc",
+            "moduleName": "SampleiOSframework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getMessage",
+            "printedName": "getMessage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18SampleiOSframework0aB7ManagerC10getMessageSSyF",
+            "mangledName": "$s18SampleiOSframework0aB7ManagerC10getMessageSSyF",
+            "moduleName": "SampleiOSframework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18SampleiOSframework0aB7ManagerC",
+        "mangledName": "$s18SampleiOSframework0aB7ManagerC",
+        "moduleName": "SampleiOSframework",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
