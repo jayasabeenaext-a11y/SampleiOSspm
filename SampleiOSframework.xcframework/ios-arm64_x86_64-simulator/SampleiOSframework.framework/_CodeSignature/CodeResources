@@ -4,6 +4,14 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>DisplayView.nib</key>
+		<data>
+		QB0zVo4sbXGjVF9S5OGRfuLalag=
+		</data>
+		<key>DisplayViewController.nib</key>
+		<data>
+		c5SuUEIkLar23YLNeq+lS0qx8+Y=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		9z5rLJYxvfHgNmzBbh+d6yKEDFI=
@@ -51,6 +59,20 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>DisplayView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ot9JOCdbnh9x7KqX671M/bGSi0NTsp6tXujXn2r37HU=
+			</data>
+		</dict>
+		<key>DisplayViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cmNra3OJJtFGVyffyB2+oG3QndlNAA+ECSzObNwC2J8=
+			</data>
+		</dict>
 		<key>Modules/SampleiOSframework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
