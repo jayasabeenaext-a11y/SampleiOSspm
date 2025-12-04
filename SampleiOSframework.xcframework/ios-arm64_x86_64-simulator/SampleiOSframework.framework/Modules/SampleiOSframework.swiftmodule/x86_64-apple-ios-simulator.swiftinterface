@@ -27,6 +27,7 @@ import _SwiftConcurrencyShims
 final public class SampleiOSframeworkManager {
   public init()
   final public func presentSampleViewController(from hostVC: UIKit.UIViewController)
+  final public func displayUIView() -> UIKit.UIView
   final public func getMessage() -> Swift.String
   @objc deinit
 }
