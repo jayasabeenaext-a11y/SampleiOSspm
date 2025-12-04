@@ -59,6 +59,77 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SampleiOSframework.DisplayView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DisplayView",
+                    "printedName": "SampleiOSframework.DisplayView",
+                    "usr": "c:@M@SampleiOSframework@objc(cs)DisplayView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SampleiOSframework@objc(cs)DisplayView(im)initWithCoder:",
+            "mangledName": "$s18SampleiOSframework11DisplayViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "SampleiOSframework",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Required",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "awakeFromNib",
+            "printedName": "awakeFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SampleiOSframework@objc(cs)DisplayView(im)awakeFromNib",
+            "mangledName": "$s18SampleiOSframework11DisplayViewC12awakeFromNibyyF",
+            "moduleName": "SampleiOSframework",
+            "overriding": true,
+            "objc_name": "awakeFromNib",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -72,7 +143,6 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIView",
-        "hasMissingDesignatedInitializers": true,
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "UIKit.UIView",
@@ -170,17 +240,80 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SampleiOSframework"
-      },
-      {
         "kind": "TypeDecl",
         "name": "DisplayViewController",
         "printedName": "DisplayViewController",
         "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DisplayViewController",
+                "printedName": "SampleiOSframework.DisplayViewController",
+                "usr": "c:@M@SampleiOSframework@objc(cs)DisplayViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SampleiOSframework@objc(cs)DisplayViewController(im)init",
+            "mangledName": "$s18SampleiOSframework21DisplayViewControllerCACycfc",
+            "moduleName": "SampleiOSframework",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SampleiOSframework.DisplayViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DisplayViewController",
+                    "printedName": "SampleiOSframework.DisplayViewController",
+                    "usr": "c:@M@SampleiOSframework@objc(cs)DisplayViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SampleiOSframework@objc(cs)DisplayViewController(im)initWithCoder:",
+            "mangledName": "$s18SampleiOSframework21DisplayViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "SampleiOSframework",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
           {
             "kind": "Function",
             "name": "viewDidLoad",
@@ -263,48 +396,6 @@
               "Override"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(coder:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SampleiOSframework.DisplayViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DisplayViewController",
-                    "printedName": "SampleiOSframework.DisplayViewController",
-                    "usr": "c:@M@SampleiOSframework@objc(cs)DisplayViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSCoder",
-                "printedName": "Foundation.NSCoder",
-                "usr": "c:objc(cs)NSCoder"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@SampleiOSframework@objc(cs)DisplayViewController(im)initWithCoder:",
-            "mangledName": "$s18SampleiOSframework21DisplayViewControllerC5coderACSgSo7NSCoderC_tcfc",
-            "moduleName": "SampleiOSframework",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithCoder:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Required"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -318,7 +409,6 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIViewController",
-        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "UIKit.UIViewController",
           "UIKit.UIResponder",
@@ -442,15 +532,21 @@
                 "kind": "TypeNominal",
                 "name": "SampleiOSframeworkManager",
                 "printedName": "SampleiOSframework.SampleiOSframeworkManager",
-                "usr": "s:18SampleiOSframework0aB7ManagerC"
+                "usr": "c:@M@SampleiOSframework@objc(cs)SampleiOSframeworkManager"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:18SampleiOSframework0aB7ManagerCACycfc",
+            "usr": "c:@M@SampleiOSframework@objc(cs)SampleiOSframeworkManager(im)init",
             "mangledName": "$s18SampleiOSframework0aB7ManagerCACycfc",
             "moduleName": "SampleiOSframework",
+            "overriding": true,
+            "objc_name": "init",
             "declAttributes": [
-              "AccessControl"
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -472,12 +568,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18SampleiOSframework0aB7ManagerC27presentSampleViewController4fromySo06UIViewG0C_tF",
+            "usr": "c:@M@SampleiOSframework@objc(cs)SampleiOSframeworkManager(im)presentSampleViewControllerFrom:",
             "mangledName": "$s18SampleiOSframework0aB7ManagerC27presentSampleViewController4fromySo06UIViewG0C_tF",
             "moduleName": "SampleiOSframework",
+            "objc_name": "presentSampleViewControllerFrom:",
             "declAttributes": [
               "Final",
               "AccessControl",
+              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -506,12 +604,18 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:18SampleiOSframework0aB7ManagerC",
+        "usr": "c:@M@SampleiOSframework@objc(cs)SampleiOSframeworkManager",
         "mangledName": "$s18SampleiOSframework0aB7ManagerC",
         "moduleName": "SampleiOSframework",
         "declAttributes": [
           "Final",
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
         ],
         "conformances": [
           {
@@ -527,6 +631,55 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       }
@@ -537,28 +690,28 @@
     {
       "filePath": "\/Users\/jayasabeena\/Documents\/Demo\/SampleiOSframework\/SampleiOSframework\/TestViewController\/DisplayViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 298,
+      "offset": 285,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jayasabeena\/Documents\/Demo\/SampleiOSframework\/SampleiOSframework\/TestViewController\/DisplayViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 304,
+      "offset": 291,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jayasabeena\/Documents\/Demo\/SampleiOSframework\/SampleiOSframework\/TestViewController\/DisplayViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 314,
+      "offset": 301,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/jayasabeena\/Documents\/Demo\/SampleiOSframework\/SampleiOSframework\/TestViewController\/DisplayViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 327,
+      "offset": 314,
       "length": 3,
       "value": "200"
     }

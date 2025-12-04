@@ -8,23 +8,25 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class DisplayView : UIKit.UIView {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class DisplayView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class DisplayViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  #endif
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   #endif
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
   @objc deinit
 }
-final public class SampleiOSframeworkManager {
-  public init()
-  final public func presentSampleViewController(from hostVC: UIKit.UIViewController)
+@objc @_Concurrency.MainActor @preconcurrency public class DisplayViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers final public class SampleiOSframeworkManager : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc final public func presentSampleViewController(from hostVC: UIKit.UIViewController)
   final public func getMessage() -> Swift.String
   @objc deinit
 }
