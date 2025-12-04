@@ -15,6 +15,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SampleiOSframework"
+      },
+      {
         "kind": "TypeDecl",
         "name": "DisplayView",
         "printedName": "DisplayView",
@@ -161,6 +168,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SampleiOSframework"
       },
       {
         "kind": "TypeDecl",
@@ -523,28 +537,28 @@
     {
       "filePath": "\/Users\/jayasabeena\/Documents\/Demo\/SampleiOSframework\/SampleiOSframework\/TestViewController\/DisplayViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 284,
+      "offset": 298,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jayasabeena\/Documents\/Demo\/SampleiOSframework\/SampleiOSframework\/TestViewController\/DisplayViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 290,
+      "offset": 304,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jayasabeena\/Documents\/Demo\/SampleiOSframework\/SampleiOSframework\/TestViewController\/DisplayViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 300,
+      "offset": 314,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/jayasabeena\/Documents\/Demo\/SampleiOSframework\/SampleiOSframework\/TestViewController\/DisplayViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 313,
+      "offset": 327,
       "length": 3,
       "value": "200"
     }
