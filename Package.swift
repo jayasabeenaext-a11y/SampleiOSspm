@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SampleiOSframework",
+    name: "SampleiOSspm",
     platforms: [
         .iOS(.v13)
     ],
@@ -14,12 +14,9 @@ let package = Package(
         )
     ],
     targets: [
-        .target(
+        .binaryTarget(
             name: "SampleiOSframework",
-            path: "SampleiOSframework",
-            resources: [
-                .process("Resources")
-            ]
+            path: "SampleiOSframework.xcframework"
         )
     ]
 )
