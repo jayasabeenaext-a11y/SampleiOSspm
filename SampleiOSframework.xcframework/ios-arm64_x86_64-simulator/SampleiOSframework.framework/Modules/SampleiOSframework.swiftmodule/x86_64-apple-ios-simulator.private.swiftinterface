@@ -24,9 +24,9 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers final public class SampleiOSframeworkManager : ObjectiveC.NSObject {
-  @objc override dynamic public init()
-  @objc final public func presentSampleViewController(from hostVC: UIKit.UIViewController)
+final public class SampleiOSframeworkManager {
+  public init()
+  final public func presentSampleViewController(from hostVC: UIKit.UIViewController)
   final public func getMessage() -> Swift.String
   @objc deinit
 }

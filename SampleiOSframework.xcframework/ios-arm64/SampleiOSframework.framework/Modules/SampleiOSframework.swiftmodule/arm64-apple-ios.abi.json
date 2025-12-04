@@ -15,13 +15,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SampleiOSframework"
-      },
-      {
         "kind": "TypeDecl",
         "name": "DisplayView",
         "printedName": "DisplayView",
@@ -56,7 +49,8 @@
               "Preconcurrency",
               "Custom",
               "Override",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -532,21 +526,15 @@
                 "kind": "TypeNominal",
                 "name": "SampleiOSframeworkManager",
                 "printedName": "SampleiOSframework.SampleiOSframeworkManager",
-                "usr": "c:@M@SampleiOSframework@objc(cs)SampleiOSframeworkManager"
+                "usr": "s:18SampleiOSframework0aB7ManagerC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@SampleiOSframework@objc(cs)SampleiOSframeworkManager(im)init",
+            "usr": "s:18SampleiOSframework0aB7ManagerCACycfc",
             "mangledName": "$s18SampleiOSframework0aB7ManagerCACycfc",
             "moduleName": "SampleiOSframework",
-            "overriding": true,
-            "objc_name": "init",
             "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
@@ -568,14 +556,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@SampleiOSframework@objc(cs)SampleiOSframeworkManager(im)presentSampleViewControllerFrom:",
+            "usr": "s:18SampleiOSframework0aB7ManagerC27presentSampleViewController4fromySo06UIViewG0C_tF",
             "mangledName": "$s18SampleiOSframework0aB7ManagerC27presentSampleViewController4fromySo06UIViewG0C_tF",
             "moduleName": "SampleiOSframework",
-            "objc_name": "presentSampleViewControllerFrom:",
             "declAttributes": [
               "Final",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -604,18 +590,12 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@SampleiOSframework@objc(cs)SampleiOSframeworkManager",
+        "usr": "s:18SampleiOSframework0aB7ManagerC",
         "mangledName": "$s18SampleiOSframework0aB7ManagerC",
         "moduleName": "SampleiOSframework",
         "declAttributes": [
           "Final",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -631,55 +611,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       }
