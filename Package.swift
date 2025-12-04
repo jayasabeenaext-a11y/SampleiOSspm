@@ -14,9 +14,12 @@ let package = Package(
         )
     ],
     targets: [
-        .binaryTarget(
+        .target(
             name: "SampleiOSframework",
-            path: "SampleiOSframework.xcframework"
+            path: "SampleiOSframework",
+            resources: [
+                .process("Resources")
+            ]
         )
     ]
 )
